@@ -1,0 +1,58 @@
+body
+{
+    background-image: url("fond_cv.jpg");
+    font-family: "Oswald", Arial, serif;
+    margin: 0px 0px 0px 0px;
+}
+
+h1, h3
+{
+    text-align: center;
+}
+
+h2
+{
+    color: #000033;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+@media handheld
+{
+    .experience, .competence, .formation
+    {
+        width: 100%;
+        height: 25%;
+        padding: 0.5%
+    }
+
+    .Liserai
+    {
+        display: none;
+    }
+
+    .flottant
+    {
+        float: right;
+        border: 1px black dashed;
+        width: 15%;
+        height: 15%;
+    }
+
+    #conteneur
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    #corps
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: left;
+        flex-direction: column;
+    }
+
+}

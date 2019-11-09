@@ -1,0 +1,114 @@
+body
+{
+    background-image: url("fond_cv.jpg");
+    font-family: "Oswald", Arial, serif;
+    margin: 0px 0px 0px 0px;
+}
+
+h1, h3
+{
+    text-align: center;
+    padding: 0%;
+    margin: 0.1%;
+}
+
+h2
+{
+    color: #000033;
+    text-shadow: 1px 1px 1px black;
+}
+
+@font-face
+{
+    font-family: "Oswald";
+    src: url("Oswald-Regular.ttf");
+}
+
+@media all
+{
+    .experience, .competence
+    {
+        text-align: left;
+        width: 45%;
+        height: 50%;
+        padding: 0.5%
+    }
+
+    .formation
+    {
+        text-align: left;
+        width: 30%;
+        height: 50%;
+        padding: 0.5%
+    }
+
+    .flottant
+    {
+        float: right;
+        border: 1px black dashed;
+        width: 10%;
+        height: 10%;
+    }
+
+    .Liserai
+    {
+        width: 40%;
+        height: 175%;
+    }
+
+    #conteneur
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+
+    #corps
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+  }
+
+
+  @media all and (max-width: 1024px)
+  {
+      .experience, .competence, .formation
+      {
+          width: 100%;
+          height: 25%;
+          padding: 0.5%
+      }
+
+      .Liserai
+      {
+          display: none;
+      }
+
+      .flottant
+      {
+          float: right;
+          border: 1px black dashed;
+          width: 15%;
+          height: 15%;
+      }
+
+      #conteneur
+      {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+      }
+
+      #corps
+      {
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: left;
+          flex-direction: column;
+      }
+
+  }
