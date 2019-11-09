@@ -1,0 +1,47 @@
+body
+{
+    background-image: url("fond_Millocheau.jpeg");
+    font-family: "Oswald", Arial, serif;
+    margin: 0px 0px 0px 0px;
+}
+
+h1, h3
+{
+    text-align: center;
+    padding: 1%;
+    margin: 0.1%;
+    color: #DCDCDC;
+}
+
+a
+{
+    color: #DCDCDC;
+    margin: 1%;
+    padding: 1%;
+    font-size: 25px;
+}
+
+@font-face
+{
+    font-family: "Oswald";
+    src: url("Oswald-Regular.ttf");
+}
+
+.flottant
+{
+    float: right;
+    width: 10%;
+    height: 10%;
+}
+@media all
+{
+    .corps
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        flex-direction: row;
+        height: 100px;
+        width: 95%;
+    }
+  }

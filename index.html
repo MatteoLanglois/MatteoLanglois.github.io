@@ -1,68 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>Page d'accueil</title>
+      <link rel="stylesheet" media="all" href="style.css">
+  </head>
 
-    <head>
-        <meta charset="utf-8" />
-        <title>Mattéo Langlois</title>
-        <link rel="stylesheet" media="all" href="style.css" />
-        <link rel="stylesheet" media="all and (max-width: 1024px)" href="style.css" />
-    </head>
+  <body>
+      <h1>Page en HTML et en CSS</h1>
+      <h3>Page d'accueil vers plusieurs pages</h3>
 
-
-
-    <body>
-        <div id="corps">
-            <section class="liserai">
-                <a href="liserai.jpg"><img src="liserai.jpg" alt="Un Liserai" class="Liserai"></a>
-            </section>
-
-            <section class="texte">
-                <p>
-                    <a href="image_cv.jpg"><img src="image_cv.jpg" class="flottant" alt="Une image de tourelle du jeu portal" title="Pour agrandir veuillez cliquer sur l'image"></a>
-                </p>
-
-                <h1>Mattéo Langlois</<h1>
-                <h3>Lycéen en terminal S</h3>
-
-                <div id="conteneur">
-
-                    <section class="experience">
-                        <h2>Mon expérience</h2>
-                        <ul>
-                            <li><p>2002: Ma naissance</p></li>
-                            <li><p>2016 - 2017: Brevet mention très bien</p></li>
-                            <li><p>2017: début d'apprentissage de Python</p></li>
-                            <li><p>2018: Epreuve anticipé du BAC (10 à l'ecrit, 13 à l'oral, 20 au TPE)</p></li>
-                            <li><p>2019: </p></li>
-                        </ul>
-                    </section>
-
-                    <section class="competence">
-                      <h2>Mes Compétences</h2>
-                      <ul>
-                          <li>Python</li>
-                          <li>Peut être prochainement C</li>
-                          <li>LaTeX</li>
-                          <li>HTML et CSS</li>
-                          <li>Bientôt Django</li>
-                      </ul>
-                    </section>
-
-                    <section class="formation">
-                        <h2>Ma formation</h2>
-                        <p>Lycée duplessis Mornay</p><br>
-                        <p>Etude supérieur: </p>
-                    </section>
-
-                    <!--<section class="pdf">
-                        <h2></h2>
-                            <embed src="EMC_article.pdf" width="1200px" height="1400px">
-                        -->
-                    </section>
-            </section>
-
-        </div>
-
-    </body>
-
+      <div class="corps">
+          <ul class="hyperlien">
+              <li><p>M. Langlois</p></li>
+                  <ul>
+                      <li><p><a href="Millocheau/Millocheau.html" title="Veuillez cliquer sur le lien pour accéder au cours">Millocheau</a></p></li>
+                  </ul>
+              <li><p>Mattéo Langlois</p></li>
+                  <ul>
+                      <li><a href="CV/CV.html" title="Veuillez cliquer sur le lien pour accéder au CV">Curriculum Vitae</a></li>
+                  </ul>
+          </ul>
+      </div>
+  </body>
 </html>
