@@ -6,12 +6,32 @@ body
     color: #DCDCDC;
 }
 
-h1, h3
+h1
 {
     text-align: center;
-    padding: 1%;
-    margin: 0.1%;
+    padding-bottom: 0.0005%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
     color: #DCDCDC;
+    font-size: 2em;
+}
+
+h3
+{
+  text-align: center;
+  padding: 0.01%;
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+  color: #DCDCDC;
+  font-size: 1.25em;
+}
+
+header
+{
+    border: 2px #DCDCDC solid;
+    border-radius: 1000px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 a
