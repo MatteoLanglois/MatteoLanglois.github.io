@@ -34,7 +34,7 @@ a
     height: 10%;
 }
 
-body
+.points
 {
     display: flex;
     flex-wrap: wrap;
