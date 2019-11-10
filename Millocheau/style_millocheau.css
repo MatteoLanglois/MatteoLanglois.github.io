@@ -21,6 +21,10 @@ a
     font-size: 25px;
 }
 
+ul
+{
+    list-style: none;
+}
 @font-face
 {
     font-family: "Oswald";
