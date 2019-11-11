@@ -1,7 +1,7 @@
 body
 {
     background-image: url("fond_Millocheau.jpeg");
-    font-family: "Oswald", Arial, serif;
+    font-family: "Courrier", Arial, serif;
     margin: 0px 0px 0px 0px;
     color: #DCDCDC;
 }
@@ -49,8 +49,8 @@ ul
 
 @font-face
 {
-    font-family: "Oswald";
-    src: url("Oswald-Regular.ttf");
+    font-family: "Courrier";
+    src: url("couri.ttf");
 }
 
 .flottant
