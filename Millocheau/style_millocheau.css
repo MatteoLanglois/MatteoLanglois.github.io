@@ -1,17 +1,18 @@
 body
 {
     background-image: url("fond_Millocheau.jpeg");
-    font-family: "Courrier", Arial, serif;
+    font-family: "Craies", Arial, serif;
     margin: 0px 0px 0px 0px;
     color: #DCDCDC;
+    font-size: 1em;
 }
 
 h1
 {
     text-align: center;
-    padding-bottom: 0.0005%;
     margin-left: 37.5%;
     margin-right: 37.5%;
+    margin-bottom: 0%;
     color: #DCDCDC;
     font-size: 2em;
 }
@@ -49,7 +50,7 @@ ul
 
 @font-face
 {
-    font-family: "Courrier";
+    font-family: "Craies";
     src: url("couri.ttf");
 }
 
