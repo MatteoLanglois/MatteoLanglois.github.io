@@ -89,7 +89,7 @@ a:hover
     }
 }
 
-@media all and (orientation: portrait)
+@media all and (max-width: 1080px)
 {
     .accueil
     {
