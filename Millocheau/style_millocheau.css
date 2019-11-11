@@ -10,8 +10,6 @@ body
 h1
 {
     text-align: center;
-    margin-left: 37.5%;
-    margin-right: 37.5%;
     margin-bottom: 0%;
     color: #DCDCDC;
     font-size: 2em;
@@ -21,18 +19,8 @@ h3
 {
   text-align: center;
   padding: 0.01%;
-  margin-left: 37.5%;
-  margin-right: 37.5%;
   color: #DCDCDC;
   font-size: 1.25em;
-}
-
-header
-{
-    border: 2px #DCDCDC solid;
-    border-radius: 1000px;
-    margin-left: 25%;
-    margin-right: 25%;
 }
 
 a
@@ -54,25 +42,6 @@ ul
     src: url("couri.ttf");
 }
 
-.flottant
-{
-    float: right;
-    width: 10%;
-    height: 10%;
-}
-
-
-.accueil
-{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-around;
-    color: #DCDCDC;
-    width: 95%;
-    height: 150%;
-}
-
 a:hover
 {
     color: yellow;
@@ -81,12 +50,75 @@ a:hover
 }
 
 
-.Rire, .GS, .Classe, .Contact, .CP, .GS-CP, .Projets
-{
-    width: 50%;
-}
-
 .Retour
 {
     text-align: left;
+}
+
+@media all
+{
+    .accueil
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+        color: #DCDCDC;
+        width: 95%;
+        height: 150%;
+    }
+
+    header
+    {
+        border: 2px #DCDCDC solid;
+        border-radius: 1000px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .Rire, .GS, .Classe, .Contact, .CP, .GS-CP, .Projets
+    {
+        width: 50%;
+    }
+
+    .flottant
+    {
+        float: right;
+        width: 10%;
+        height: 10%;
+    }
+}
+
+@media all and (max-width: 1024px)
+{
+    .accueil
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #DCDCDC;
+        width: 95%;
+        height: 150%;
+    }
+
+    header
+    {
+        border: 2px #DCDCDC solid;
+        border-radius: 1000px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .Rire, .GS, .Classe, .Contact, .CP, .GS-CP, .Projets
+    {
+        width: 100%;
+    }
+
+    .flottant
+    {
+        float: right;
+        width: 25%;
+        height: 25%;
+    }
 }
