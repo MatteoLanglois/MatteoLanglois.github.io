@@ -37,6 +37,16 @@ header
     margin-left: 30%;
     border-radius: 1000px;
     margin-top: 0.5%;
+    transform: scale(1);
+    transition: all 400ms;
+    color: #000000
+}
+
+header:hover
+{
+    transform: scale(1.5);
+    background-color: #003333;
+    color: #FFFFFF
 }
 
 @media all
@@ -46,5 +56,6 @@ header
         display: flex;
         flex-wrap: nowrap;
         justify-content: flex-start;
+        text-align: left;
     }
   }
