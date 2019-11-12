@@ -74,6 +74,7 @@ a:hover
         border-radius: 1000px;
         margin-left: 25%;
         margin-right: 25%;
+        width: 50%;
     }
 
     .Rire, .GS, .Classe, .Contact, .CP, .GS-CP, .Projets
@@ -106,8 +107,9 @@ a:hover
     {
         border: 2px #DCDCDC solid;
         border-radius: 1000px;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%
     }
 
     .Rire, .GS, .Classe, .Contact, .CP, .GS-CP, .Projets

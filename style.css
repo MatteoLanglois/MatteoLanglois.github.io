@@ -38,14 +38,14 @@ header
     border-radius: 1000px;
     margin-top: 0.5%;
     transform: scale(1);
-    transition: all 400ms;
+    transition: transform 400ms ease-in-out, background-color 300ms 150ms;
     color: #000000
 }
 
 header:hover
 {
     transform: scale(1.5);
-    background-color: #003333;
+    background-color: #0088FF;
     color: #FFFFFF
 }
 
