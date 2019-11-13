@@ -44,7 +44,7 @@ header
 
 header:hover
 {
-    transform: scale(1.5);
+    transform: rotate(180deg);
     background-color: #0088FF;
     color: #FFFFFF
 }
