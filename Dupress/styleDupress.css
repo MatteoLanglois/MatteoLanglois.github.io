@@ -26,7 +26,6 @@ a
 
 a:hover
 {
-    color: rgb(117, 12, 12);
     text-decoration: underline;
 }
 
@@ -64,9 +63,12 @@ a:hover
     justify-content: flex-start;
 }
 
+
+
+
+
 .Liens
 {
-    border: 1px white solid;
     padding: 5%;
     justify-content: center;
 }
