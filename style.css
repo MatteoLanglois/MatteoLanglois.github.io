@@ -37,16 +37,16 @@ header
     margin-left: 30%;
     border-radius: 1000px;
     margin-top: 0.5%;
-    transform: scale(1);
+    transform: rotate(0turn) scale(1) skewX(0deg) perspective(75px);
     transition: transform 400ms ease-in-out, background-color 300ms 150ms;
     color: #000000
 }
 
 header:hover
 {
-    transform: rotate(180deg);
+    transform: rotate(-10turn) scale(2) skewX(45deg) perspective(150px);
     background-color: #0088FF;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 @media all
