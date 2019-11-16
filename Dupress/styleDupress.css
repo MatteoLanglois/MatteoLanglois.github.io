@@ -1,16 +1,9 @@
-#logo
+body
 {
-    width: 50%;
-    height: 50%;
-    transition: transform 500ms ease-in-out, background-color 150ms 300ms;
-    transform: scale(1);
-}
-
-#logo:hover
-{
-    transform: scale(1.5);
-    box-shadow: 10px 30px 5px red;
-    background-color: #FF0000;
+    background-color: rgba(34,34,34,.85);
+    color: white;
+    margin: 0px;
+    margin-top: 5px;
 }
 
 header
@@ -19,7 +12,61 @@ header
     justify-content: center;
 }
 
-body
+nav
 {
-    background-color: rgb(37, 36, 36);
+    border: 1px white solid;
+    padding: 5%;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: rgb(117, 12, 12);
+    text-decoration: underline;
+}
+
+
+#Corps
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#logo
+{
+    width: 50%;
+    height: 50%;
+    transition: transform 500ms ease-in-out;
+    transform: scale(1);
+}
+
+#logo:hover
+{
+    transform: scale(1.25);
+}
+
+.explication
+{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.Onglet
+{
+    background-color: rgba(102,102,102,.8);
+    justify-content: flex-start;
+}
+
+.Liens
+{
+    border: 1px white solid;
+    padding: 5%;
+    justify-content: center;
 }
