@@ -32,18 +32,6 @@ nav
     text-align: left;
 }
 
-a
-{
-    color: white;
-    text-decoration: none;
-    text-align: left;
-}
-
-a:hover
-{
-    text-decoration: underline;
-}
-
 footer
 {
     display: block;
@@ -52,15 +40,6 @@ footer
     flex-wrap: wrap;
     padding-left: 15%;
     padding-right: 15%;
-}
-
-hr
-{
-    width: 100%;
-    size: 4;
-    color: white;
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 h2
@@ -73,6 +52,27 @@ h3
 {
     text-align: center;
     font-size: 0.75em;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+hr
+{
+    width: 100%;
+    size: 4;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+a:hover
+{
+    text-decoration: underline;
 }
 
 .liste-type
@@ -165,9 +165,4 @@ h3
     font-size: 1.5em;
     flex-wrap: nowrap;
     justify-content: space-around;
-}
-
-.ImageArticle
-{
-    padding: 5px;
 }
