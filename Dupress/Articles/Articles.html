@@ -2,7 +2,7 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="StyleArticle.css">
+    <link rel="stylesheet" href="../styleDupress.css">
     <link rel="shortcut icon" href="../DATA/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../DATA/favicon.ico" type="image/x-icon">
     <title>Les articles</title>
@@ -10,37 +10,43 @@
 
 
   <body>
-      <header>
-        <img id="logo" src="../DATA/DupressLogo.png" alt="le logo du Dupress" >
-      </header>
+      <div id="entete">
+          <nav class="Onglet">
+                  <h3><a href="../Dupress_Accueil.html">Accueil</a></h3>
+                  <ul>
+                      <li><a href="Blogs/Blogs.html">Débats-Blogs</a></li>
+                      <li><a href="Articles/Articles.html">Les numéros en ligne</a></li>
+                      <li><a href="Articles/Bonus/Bonus.html">Les bonus</a></li>
+                      <li><a href="Contact/QuiSommesNous.html">Qui sommes nous ?</a></li>
+                      <li><a href="Contact/Contact.html">Nous contacter</a></li>
+                      <li><a href="Contact/site.html">Création du site</a></li>
+                  </ul>
+          </nav>
+          <header>
+            <img id="logo" src="../DATA/DupressLogo.png" alt="le logo du Dupress" >
+          </header>
+      </div>
+
       <hr>
-      <nav class="Onglet">
-              <h3><a href="../Dupress_Accueil.html">Accueil</a></h3>
-              <ul>
-                  <li><a href="Blogs/Blogs.html">Débats-Blogs</a></li>
-                  <li><a href="Articles/Articles.html">Les numéros en ligne</a></li>
-                  <li><a href="Articles/Bonus/Bonus.html">Les bonus</a></li>
-                  <li><a href="Contact/QuiSommesNous.html">Qui sommes nous ?</a></li>
-                  <li><a href="Contact/Contact.html">Nous contacter</a></li>
-                  <li><a href="Contact/site.html">Création du site</a></li>
-              </ul>
-      </nav>
+      <div id="Corps">
 
-      <section>
-          <h3>Journaux déjà parues</h3>
-          <hr>
-          <div class="Categorie">
-              <a href="">Actualité</a>
-              <a href="#">EMD</a>
-              <a href="#">écologie</a>
-              <a href="#">Débats</a>
-              <a href="#">Culture</a>
-          </div>
-          <hr>
-          
-
-
+              <h2>Journaux déjà parus</h2>
+      </div>
+      <hr>
+      <section class="rubrique">
+                  <a href="#" class="Categorie">Actualité</a>
+                  <a href="#" class="Categorie">EMD</a>
+                  <a href="#" class="Categorie">Écologie</a>
+                  <a href="#" class="Categorie">Débats</a>
+                  <a href="#" class="Categorie">Culture</a>
       </section>
+      <hr>
+      <section class="Journaux">
+        <div class="num0">
+            <img src="Bibliotheque_image/journal0.jpg" alt="L'imge du premier journal">
+        </div>
+      </section>
+
 
   </body>
 </html>

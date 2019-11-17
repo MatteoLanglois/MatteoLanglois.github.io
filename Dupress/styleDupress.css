@@ -10,6 +10,10 @@ header
 {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 1px black solid;
+    margin-left: 20%;
 }
 
 nav
@@ -50,11 +54,26 @@ footer
     padding-right: 15%;
 }
 
-.image
+hr
 {
     width: 100%;
-    height: 100%;
+    size: 4;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h2
+{
     text-align: center;
+    font-size: 2em;
+}
+
+#entete
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 
 #Corps
@@ -62,7 +81,19 @@ footer
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: center;
+    text-align: center
+}
+
+.rubrique
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Journaux
+{
+    margin: 5%;
 }
 
 #logo
@@ -78,6 +109,14 @@ footer
     transform: scale(1.25);
 }
 
+.image
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
 .explication
 {
     text-align: center;
@@ -90,4 +129,19 @@ footer
 {
     padding: 5%;
     justify-content: flex-start;
+}
+
+.Categorie
+{
+    border: 2px White solid;
+    margin: 1%;
+    padding: 2%;
+    background-color: White;
+    color: black
+}
+
+.Categorie:hover
+{
+    background-color: inherit;
+    color: white;
 }
