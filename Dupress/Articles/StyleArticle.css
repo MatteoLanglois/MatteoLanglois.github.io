@@ -24,15 +24,12 @@ nav
     margin-right: 5%;
     box-shadow: 5px 5px 10px  black;
     background-color: rgba(102,102,102,.8);
-    justify-content: flex-start;
-    text-align: left;
 }
 
 a
 {
     color: white;
     text-decoration: none;
-    text-align: left;
 }
 
 a:hover
@@ -50,11 +47,12 @@ footer
     padding-right: 15%;
 }
 
-.image
+hr
 {
     width: 100%;
-    height: 100%;
-    text-align: center;
+    size: 4;
+    color: white;
+
 }
 
 #Corps
@@ -62,7 +60,6 @@ footer
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
 }
 
 #logo
@@ -76,18 +73,4 @@ footer
 #logo:hover
 {
     transform: scale(1.25);
-}
-
-.explication
-{
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-
-.Liens
-{
-    padding: 5%;
-    justify-content: flex-start;
 }
