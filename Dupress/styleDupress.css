@@ -69,6 +69,17 @@ h2
     font-size: 2em;
 }
 
+h3
+{
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.liste-type
+{
+    list-style: "> ";
+}
+
 #entete
 {
     display: flex;
@@ -85,7 +96,7 @@ h2
     text-align: center
 }
 
-.rubrique
+#rubrique
 {
     display: flex;
     justify-content: space-around;
@@ -94,6 +105,8 @@ h2
 #Journaux
 {
     margin: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 #logo
@@ -124,7 +137,6 @@ h2
     margin-right: 25%;
 }
 
-
 .Liens
 {
     padding: 5%;
@@ -144,4 +156,18 @@ h2
 {
     background-color: inherit;
     color: white;
+}
+
+.Article
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.ImageArticle
+{
+    padding: 5px;
 }
