@@ -105,6 +105,7 @@ ul
 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #Journaux
@@ -127,7 +128,6 @@ ul
 {
     transform: scale(1.25);
 }
-
 
 .Liens
 {
@@ -164,13 +164,21 @@ ul
     margin: 1%;
     padding: 2%;
     background-color: White;
-    color: black
+    color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    transition: all 300ms ease-in-out;
+    text-align: center;
+    width: 10%;
+    overflow: hidden;
 }
 
 .Categorie:hover
 {
     background-color: inherit;
     color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px black;
 }
 
 .Article
