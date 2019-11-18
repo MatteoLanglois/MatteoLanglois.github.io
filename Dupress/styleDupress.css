@@ -4,34 +4,30 @@ body
     color: white;
     margin: 0px;
     margin-top: 5px;
+    font-family: "Georgia", Arial, serif;
 }
 
 header
 {
     display: flex;
     justify-content: center;
-    width: 120%;
-    height: 120%;
+    width: 100%;
+    height: 100%;
 }
 
 nav
 {
     border: 1px white solid;
     border-radius: 5px;
-    padding-right: 25%;
+    padding-right: 2%;
     margin-left: 1.5%;
     margin-right: 1.5%;
     box-shadow: 5px 5px 10px  black;
     background-color: rgba(102,102,102,.8);
     justify-content: flex-start;
     text-align: left;
-}
-
-section
-{
-    padding: 5%;
-    border: 1px blue solid;
-    margin-right: 25%;
+    width: 10%;
+    overflow: hidden;
 }
 
 footer
@@ -42,6 +38,12 @@ footer
     flex-wrap: wrap;
     padding-left: 15%;
     padding-right: 15%;
+}
+
+h1
+{
+    font-size: 2.75em;
+    text-align: center;
 }
 
 h2
@@ -76,11 +78,6 @@ hr
     margin-bottom: 5%;
 }
 
-.liste-type
-{
-    list-style: "> ";
-}
-
 #entete
 {
     display: flex;
@@ -93,7 +90,7 @@ hr
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
 }
 
@@ -123,22 +120,34 @@ hr
     transform: scale(1.25);
 }
 
+
+.Liens
+{
+    width: 84%;
+}
+
+.Liens img
+{
+  box-shadow:3px 3px 10px black;
+  width: 70%;
+}
+
 .image
 {
     width: 100%;
     height: 100%;
     text-align: center;
 }
-
-
+.image img
+{
+    margin: 5%;
+}
 .explication
 {
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
 }
-
-
 
 .Categorie
 {
@@ -162,4 +171,15 @@ hr
     font-size: 1.5em;
     flex-wrap: nowrap;
     justify-content: space-around;
+}
+
+.liste-type
+{
+    list-style: "> ";
+}
+
+@font-face
+{
+    font-family: "Georgia";
+    src: url("georgia.ttf");
 }
