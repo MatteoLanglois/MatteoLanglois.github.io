@@ -12,7 +12,7 @@ h1
 {
     font-size: 2.75em;
     text-align: center;
-    text-shadow: 3px 3px 10px black;
+    text-shadow: 2px 2px 10px black;
 }
 
 h2
@@ -25,6 +25,7 @@ h3
 {
     text-align: center;
     font-size: 1.75em;
+    text-shadow: 2px 2px 10px Black;
 }
 
 h4
@@ -45,7 +46,7 @@ hr
 {
     width: 100%;
     size: 4;
-    color: white;
+    color: rgb(96, 5, 24);
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -97,7 +98,7 @@ header
 
 nav
 {
-    border: 1px rgb(96, 5, 24) solid;
+    border: 2px rgb(96, 5, 24) solid;
     border-radius: 5px;
     margin-left: 1.5%;
     margin-right: 1.5%;
@@ -115,19 +116,18 @@ nav
 
 .LiAccueil
 {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 1.5em;
-    transition: background-color 300ms ease-in-out, font-size 300ms;
+    transition: background-color 300ms ease-in-out, font-size 300ms,border-radius 700ms;
 }
 
 .LiAccueil:hover
 {
     background-color: rgba(34,34,34,.85);
     text-decoration: none;
-    font-size: 1.75em;
 }
 
 /*   Footer    */
