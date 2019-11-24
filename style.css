@@ -1,8 +1,9 @@
 body
 {
-    background-image: url("fond_index.jpg");
     font-family: "Oswald", Arial, serif;
     margin: 0px 0px 0px 0px;
+    background-color: rgb(194, 194, 194);
+    background: radial-gradient(circle, lighten(rgb(194, 194, 194), 5) 0%, darken(rgb(194, 194, 194), 10) 50%);
 }
 
 h1, h3
@@ -37,14 +38,15 @@ header
     margin-left: 30%;
     border-radius: 1000px;
     margin-top: 0.5%;
-    transform: rotate(0turn) scale(1) skewX(0deg) perspective(75px);
+    transform: scale(1);
     transition: transform 400ms ease-in-out, background-color 300ms 150ms;
+    transform-origin: top;
     color: #000000
 }
 
 header:hover
 {
-    transform: rotate(-10turn) scale(2) skewX(45deg) perspective(150px);
+    transform: scale(1.25);
     background-color: #0088FF;
     color: #FFFFFF;
 }
