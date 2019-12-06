@@ -375,15 +375,17 @@ footer img
         padding-left: 3px;
         padding-right: 3px;
         padding-top: 5px;
-        padding-bottom: 5px;
+        padding-bottom: 0px;
         font-size: 1.5em;
-        transition: background-color 300ms ease-in-out, font-size 300ms,border-radius 700ms;
+        border-radius: 1px;
+        transition: background-color 300ms ease-in-out, font-size 300ms, border-radius 700ms;
     }
 
-    .LiAccueil:hover
+    .LiAccueil:active
     {
         background-color: rgba(34,34,34,.85);
         text-decoration: none;
+        border-radius: 5px;
     }
 
     footer img
@@ -404,6 +406,7 @@ footer img
     {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
     }
 
     nav
