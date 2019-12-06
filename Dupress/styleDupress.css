@@ -370,6 +370,22 @@ footer img
         height: 15%;
     }
 
+    .LiAccueil
+    {
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 1.5em;
+        transition: background-color 300ms ease-in-out, font-size 300ms,border-radius 700ms;
+    }
+
+    .LiAccueil:hover
+    {
+        background-color: rgba(34,34,34,.85);
+        text-decoration: none;
+    }
+
     footer img
     {
       width: 2.5%;
@@ -416,5 +432,10 @@ footer img
         text-align: center;
         justify-content: center;
         width: 100%;
+    }
+
+    Nav h3
+    {
+        font-size: 3em;
     }
 }
