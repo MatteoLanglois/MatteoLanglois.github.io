@@ -15,11 +15,12 @@
         height: 3%;
         justify-content: center;
         text-align: left;
-        overflow: hidden;
+        overflow: visible;
         position: sticky;
         top: 30px;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         font-size: 0.7em;
     }
 
@@ -30,7 +31,7 @@
 
     body
     {
-        font-size: 0.75em;
+        font-size: 1em;
         display: flex;
         flex-direction: column
     }
@@ -41,6 +42,16 @@
       height: 2.5%;
       margin: 0%;
       padding: 0%;
+    }
+
+    p
+    {
+        font-size: 1.25em;
+    }
+
+    a
+    {
+        font-size: 1.2em;
     }
 
     #Corps
@@ -82,11 +93,12 @@
     {
         padding-left: 3px;
         padding-right: 3px;
-        padding-top: 5px;
+        padding-top: 10px;
         padding-bottom: 0px;
-        font-size: 1.5em;
+        font-size: 1.75em;
         border-radius: 1px;
         transition: background-color 300ms ease-in-out, font-size 300ms, border-radius 700ms;
+        width: 25%;
     }
 
     .LiAccueil:active
@@ -107,6 +119,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        overflow: visible;
+        flex-wrap: wrap;
     }
 
     .Liens
