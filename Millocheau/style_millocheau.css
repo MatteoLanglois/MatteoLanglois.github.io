@@ -3,6 +3,7 @@ body
     background-image: url("fond_Millocheau.jpeg");
     font-family: "Craies", Arial, serif;
     margin: 0px 0px 0px 0px;
+    padding: 0%;
     color: #DCDCDC;
     font-size: 1em;
 }
@@ -13,14 +14,16 @@ h1
     margin-bottom: 0%;
     color: #DCDCDC;
     font-size: 2em;
+    padding: 0%;
 }
 
 h3
 {
   text-align: center;
-  padding: 0.01%;
   color: #DCDCDC;
   font-size: 1.25em;
+  margin-top: 0%;
+  padding: 0%;
 }
 
 a
@@ -29,11 +32,14 @@ a
     margin: 1%;
     padding: 1%;
     text-decoration: none;
+    transition: all 100ms ease-in-out;
 }
 
-ul
+
+
+.Retour
 {
-    list-style: none;
+    text-align: left;
 }
 
 @font-face
@@ -42,21 +48,24 @@ ul
     src: url("couri.ttf");
 }
 
-a:hover
-{
-    color: yellow;
-    font-style: italic;
-    text-decoration: underline;
-}
-
-
-.Retour
-{
-    text-align: left;
-}
-
 @media all
 {
+    header
+    {
+        border: 2px #DCDCDC solid;
+        border-radius: 1000px;
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+    }
+
+    a:hover
+    {
+        color: yellow;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
     .accueil
     {
         display: flex;
@@ -64,22 +73,14 @@ a:hover
         flex-direction: row;
         justify-content: space-around;
         color: #DCDCDC;
-        width: 95%;
+        width: 100%;
         height: 150%;
-    }
-
-    header
-    {
-        border: 2px #DCDCDC solid;
-        border-radius: 1000px;
-        margin-left: 25%;
-        margin-right: 25%;
-        width: 50%;
+        margin-left: 5px;
     }
 
     .Rire, .GS, .Classe, .Contact, .CP, .GS-CP, .Projets
     {
-        width: 50%;
+        width: 60%;
     }
 
     .flottant
@@ -87,29 +88,60 @@ a:hover
         float: right;
         width: 10%;
         height: 10%;
+        margin-right: 1%;
+    }
+
+    ul
+    {
+        list-style: none;
+    }
+
+    .points li
+    {
+        list-style: circle;
     }
 }
 
 @media all and (max-width: 1024px)
 {
+
+    header
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    body
+    {
+        font-size: 0.95em;
+        overflow: scroll;
+        margin-left: 0%;
+    }
+
+    h2
+    {
+        font-size: 1.5em;
+    }
+
+    p
+    {
+        font-size: 1.2em;
+    }
+
+    .points li
+    {
+        list-style: none;
+    }
+
     .accueil
     {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
-        justify-content: space-around;
-        color: #DCDCDC;
-        width: 95%;
+        width: 100%;
         height: 150%;
-    }
-
-    header
-    {
-        border: 2px #DCDCDC solid;
-        border-radius: 1000px;
-        margin-left: 25%;
-        margin-right: 25%;
-        width: 50%
+        margin: 0%;
     }
 
     .Rire, .GS, .Classe, .Contact, .CP, .GS-CP, .Projets
@@ -122,5 +154,7 @@ a:hover
         float: right;
         width: 25%;
         height: 25%;
+        position: sticky;
+        top: 10px;
     }
 }
